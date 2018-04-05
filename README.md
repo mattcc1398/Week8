@@ -40,7 +40,8 @@ Vulnerability #1: CSRF
 
 Go to edit a user, inspect element, change CSRF token, and then edit field (change will be applied)
 
-Vulnerability #2: __________________
+Vulnerability #2: IDOR
+Go to public site, click find a salesperson, change ID=10
 
 
 ## Notes
