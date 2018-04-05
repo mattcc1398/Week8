@@ -20,7 +20,9 @@ Vulnerability #1: Session hijacking
 
 For hijacking, log the target in first, then give the logged-in session ID to the attacker.
 
-Vulnerability #2: __________________
+Vulnerability #2: SQLI
+
+Show a salesperson, and then replace the id=x with id=' OR SLEEP(5)=0--'
 
 
 ## Green
@@ -29,12 +31,13 @@ Vulnerability #1: XSS
 
 <script>alert('Mallory found the XSS!');</script>
 
-Vulnerability #2: __________________
+Vulnerability #2: Password enumeration
 
 
 ## Red
 
 Vulnerability #1: CSRF
+Go to edit a user, inspect element, change CSRF token, and then edit field (change will be applied)
 
 Vulnerability #2: __________________
 
