@@ -37,6 +37,7 @@ Vulnerability #2: Password enumeration
 ## Red
 
 Vulnerability #1: CSRF
+
 Go to edit a user, inspect element, change CSRF token, and then edit field (change will be applied)
 
 Vulnerability #2: __________________
