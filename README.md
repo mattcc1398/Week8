@@ -47,7 +47,9 @@ The system indicates whether or not the username is valid with the bolding of th
 
 Vulnerability #1: CSRF
 
-Go to edit a user, inspect element, change CSRF token, and then edit field (change will be applied)
+<img src="https://github.com/mattcc1398/Week8/blob/master/Red%20CSRF.gif" width="800">
+
+Go to edit a user, inspect element, change CSRF token, and then edit a field. The change will be applied even though it shouldn't be.
 
 Vulnerability #2: IDOR
 Go to public site, click find a salesperson, change ID=10
