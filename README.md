@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -56,7 +56,3 @@ Vulnerability #2: IDOR
 <img src="https://github.com/mattcc1398/Week8/blob/master/Red%20IDOR.gif" width="800">
 
 Go to the public site, click find a salesperson, and change ID=10.
-
-## Notes
-
-Describe any challenges encountered while doing the work
