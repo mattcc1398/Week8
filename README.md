@@ -24,7 +24,9 @@ For hijacking, we first log in on one browser (Chrome), and then use the PHP ses
 
 Vulnerability #2: SQLI
 
-Show a salesperson, and then replace the id=x with id=' OR SLEEP(5)=0--'
+<img src="https://github.com/mattcc1398/Week8/blob/master/Blue%20SQLI.gif" width="800">
+
+Show a salesperson, and then enter a SQL injection into the id field of the URL.
 
 
 ## Green
