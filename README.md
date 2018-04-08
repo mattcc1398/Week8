@@ -39,6 +39,9 @@ Leave feedback with XSS in the message, and the script will run when you log in 
 
 Vulnerability #2: Password enumeration
 
+<img src="https://github.com/mattcc1398/Week8/blob/master/Green%20PE.gif" width="800">
+
+The system indicates whether or not the username is valid with the bolding of the "Log in was unsuccessful" text. Bold text means the username is valid, and non-bold means the username is not valid. 
 
 ## Red
 
