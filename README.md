@@ -22,7 +22,7 @@ Vulnerability #1: Session hijacking
 
 For hijacking, we first log in on one browser (Chrome), and then use the PHP session ID tool to get the session ID. We then change the session ID in the second browser (Firefox) to that session ID, which allows us to bypass having to enter a username and password.
 
-Vulnerability #2: SQLI
+Vulnerability #2: SQLi
 
 <img src="https://github.com/mattcc1398/Week8/blob/master/Blue%20SQLI.gif" width="800">
 
@@ -37,7 +37,7 @@ Vulnerability #1: XSS
 
 Leave feedback with XSS in the message, and the script will run when you log in and view the feedback.
 
-Vulnerability #2: Password enumeration
+Vulnerability #2: Username enumeration
 
 <img src="https://github.com/mattcc1398/Week8/blob/master/Green%20PE.gif" width="800">
 
