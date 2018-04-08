@@ -20,7 +20,7 @@ Vulnerability #1: Session hijacking
 
 <img src="https://github.com/mattcc1398/Week8/blob/master/Blue%20SH.gif" width="800">
 
-For hijacking, log the target in first, then give the logged-in session ID to the attacker.
+For hijacking, we first log in on one browser (Chrome), and then use the PHP session ID tool to get the session ID. We then change the session ID in the second browser (Firefox) to that session ID, which allows us to bypass having to enter a username and password.
 
 Vulnerability #2: SQLI
 
