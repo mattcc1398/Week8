@@ -18,6 +18,8 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: Session hijacking
 
+<img src="https://github.com/mattcc1398/CodePath-Week7/blob/master/YouTube%20XSS.gif" width="800">
+
 For hijacking, log the target in first, then give the logged-in session ID to the attacker.
 
 Vulnerability #2: SQLI
