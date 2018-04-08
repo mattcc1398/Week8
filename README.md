@@ -52,8 +52,10 @@ Vulnerability #1: CSRF
 Go to edit a user, inspect element, change CSRF token, and then edit a field. The change will be applied even though it shouldn't be.
 
 Vulnerability #2: IDOR
-Go to public site, click find a salesperson, change ID=10
 
+<img src="https://github.com/mattcc1398/Week8/blob/master/Red%20IDOR.gif" width="800">
+
+Go to the public site, click find a salesperson, and change ID=10.
 
 ## Notes
 
