@@ -33,7 +33,9 @@ Show a salesperson, and then enter a SQL injection into the id field of the URL.
 
 Vulnerability #1: XSS
 
-<script>alert('Mallory found the XSS!');</script>
+<img src="https://github.com/mattcc1398/Week8/blob/master/Green%20XSS.gif" width="800">
+
+Leave feedback with XSS in the message, and the script will run when you log in and view the feedback.
 
 Vulnerability #2: Password enumeration
 
